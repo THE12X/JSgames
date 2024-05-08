@@ -1,0 +1,43 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+.sp {
+  color: rgb(255, 238, 0);
+}
+.cardo {
+  width: 200px;
+  height: 254px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background: #212121;
+  box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(36, 36, 36);
+}
+
+.cim {
+  width: 70%;
+  padding: 10px;
+  border-radius: 30px;
+  transition: all 0.4s ease-in-out;
+}
+.cim:hover {
+  box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(36, 36, 36);
+}
+h3 {
+  font-weight: 400;
+  transition: all 0.4s ease-in-out;
+}
+h3:hover {
+  color: yellow;
+  transition: all 0.4s ease-in-out;
+  text-shadow: 0 0 10px rgba(255, 251, 0, 0.8), 0 0 20px rgba(255, 238, 0, 0.8), 0 0 30px rgba(255, 217, 0, 0.8);
+  font-weight: 200;
+}
+.x{
+  margin-bottom: 30px;
+}
